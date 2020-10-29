@@ -1,0 +1,18 @@
+# Template information section
+name: "mvvm_module"
+summary: "MVVM module"
+author: "Nikita Kharseko
+version: "1.0"
+license: "MIT"
+
+# The declarations for code files
+code_files:
+# Module layer
+- {name: ViewController.xib, path: Code/ViewController.xib.liquid}
+- {name: ViewController.swift, path: Code/ViewController.swift.liquid}
+- {name: ViewControllerProtocol.swift, path: Code/ViewControllerProtocol.swift.liquid}
+- {name: ViewModel.swift, path: Code/ViewModel.swift.liquid}
+- {name: ViewModelProtocol.swift, path: Code/ViewModelProtocol.swift.liquid}
+- {name: Builder.swift, path: Code/Builder.swift.liquid}
+- {name: Coordinatior.swift, path: Code/Coordinator.swift.liquid}
+- {name: CoordinatiorProtocol.swift, path: Code/CoordinatiorProtocol.swift.liquid}

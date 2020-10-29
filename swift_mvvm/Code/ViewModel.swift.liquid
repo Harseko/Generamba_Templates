@@ -1,0 +1,24 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import RxSwift
+import RxCocoa
+
+final class {{ module_info.name }}ViewModel {
+
+    private let coordinator: {{ module_info.name }}Coordinator
+    private let bag = DisposeBag()
+    
+    init(coordinator: {{ module_info.name }}Coordinator) {
+        self.coordinator = coordinator
+    }
+}
+
+extension {{ module_info.name }}ViewModel: {{ module_info.name }}ViewModelProtocol {
+    
+}

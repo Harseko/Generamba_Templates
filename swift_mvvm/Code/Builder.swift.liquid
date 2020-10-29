@@ -1,0 +1,18 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+struct {{ module_info.name }}Builder {
+    func build() -> UIViewController {
+        let viewController = {{ module_info.name }}ViewController()
+        let coordinator = {{ module_info.name }}Coordinator(navigationRouter: Router.shared)
+        let viewModel = {{ module_info.name }}ViewModel(coordinator: coordinator)
+        viewController.viewModel = viewModel
+        
+        return viewController
+    }
+}

@@ -1,0 +1,19 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Coordinator {
+    private let navigationRouter: NavigationRouterProtocol
+    
+    init(navigationRouter: NavigationRouterProtocol) {
+        self.navigationRouter = navigationRouter
+    }
+}
+
+extension {{ module_info.name }}Coordinator: {{ module_info.name }}CoordinatorProtocol {
+    
+}
