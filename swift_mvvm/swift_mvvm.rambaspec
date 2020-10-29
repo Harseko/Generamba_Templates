@@ -1,18 +1,17 @@
 # Template information section
-name: "mvvm_module"
+name: "swift_mvvm"
 summary: "MVVM module"
-author: "Nikita Kharseko
+author: "Nikita Kharseko"
 version: "1.0"
 license: "MIT"
 
 # The declarations for code files
 code_files:
 # Module layer
-- {name: ViewController.xib, path: Code/ViewController.xib.liquid}
-- {name: ViewController.swift, path: Code/ViewController.swift.liquid}
-- {name: ViewControllerProtocol.swift, path: Code/ViewControllerProtocol.swift.liquid}
-- {name: ViewModel.swift, path: Code/ViewModel.swift.liquid}
-- {name: ViewModelProtocol.swift, path: Code/ViewModelProtocol.swift.liquid}
-- {name: Builder.swift, path: Code/Builder.swift.liquid}
-- {name: Coordinatior.swift, path: Code/Coordinator.swift.liquid}
-- {name: CoordinatiorProtocol.swift, path: Code/CoordinatiorProtocol.swift.liquid}
+- {name: View/ViewController.xib, path: Code/View/ViewController.xib.liquid}
+- {name: View/ViewController.swift, path: Code/View/ViewController.swift.liquid}
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/ViewModel.swift.liquid}
+- {name: ViewModel/ViewModelProtocol.swift, path: Code/ViewModel/ViewModelProtocol.swift.liquid}
+- {name: Builder/Builder.swift, path: Code/Builder/Builder.swift.liquid}
+- {name: Coordinator/Coordinator.swift, path: Code/Coordinator/Coordinator.swift.liquid}
+- {name: Coordinator/CoordinatorProtocol.swift, path: Code/Coordinator/CoordinatorProtocol.swift.liquid}
